@@ -1,0 +1,35 @@
+body {
+	height: 100%;
+	margin: 0;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-size: 20px;
+}
+
+.container {
+	height: 100%;
+}
+
+.sidebar {
+      text-align: center;
+      position: fixed;
+	float: left;
+	width: 10%;
+	height: 100%;
+      background-color: #ccc;
+}
+.sidebar .logo {
+      text-align: center;
+}
+
+.main {
+      position: relative;
+      margin-top: -50px;
+	float: right;
+	width: 90%;
+	height: 100%;
+	background-color: white;
+}
+.content {
+      padding: 50px 10px;
+      padding-left: 10px;
+}
